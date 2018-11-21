@@ -1,0 +1,101 @@
+"base"
+{
+	"title"		"Swordlight"
+	"base"		"base"
+    "maps"      "^sl_|^zs_|^gm_"
+    "menusystem"    "1"
+    "settings"
+    {
+        1
+        {
+            "name"      "sl_max_skeletons"
+            "text"      "Max skeletons"
+            "help"      "Maximum number of skeletons allowed"
+            "type"      "Numeric"
+            "default"   "15"
+        }
+        
+        2
+        {
+            "name"      "sl_enable_buffs"
+            "text"      "Enable Buffs"
+            "help"      "If enabled, players can use buffs from pledging themselves to a god."
+            "type"      "Checkbox"
+            "default"   "1"
+        }
+        
+        3
+        {
+            "name"      "sl_enable_undead"
+            "text"      "Enable Undead Debuffs"
+            "help"      "If enabled, when players become Undead, they halve their health, but up their healing power."
+            "type"      "Checkbox"
+            "default"   "1"
+        }
+        
+        4
+        {
+            "name"      "sl_enable_bosses"
+            "text"      "Enable bosses"
+            "help"      "If disabled, Rituals, Ritual Materials, and Bosses will not be available to players."
+            "type"      "Checkbox"
+            "default"   "1"
+        }
+        
+        5
+        {
+            "name"      "sl_max_boss_level"
+            "text"      "Maximum boss level"
+            "help"      "When lowered, forces players to use lower-level bosses. Accepted Values [1 - 5].
+                         If you're trying to disable bosses, see sl_enable_bosses."
+            "type"      "Numeric"
+            "default"   "5"
+        }
+        
+        6
+        {
+            "name"      "sl_max_teams"
+            "text"      "Maximum number of teams for play"
+            "help"      "The amount of teams in the game. Maximum number: 7"
+            "type"      "Numeric"
+            "default"   "3"
+        }
+        
+        7
+        {
+            "name"      "sl_mana_regen"
+            "text"      "Mana regen rate"
+            "help"      "The mana regen rate for wizards/witches in game."
+            "type"      "Numeric"
+            "default"   "5"
+        }
+        
+        8
+        {
+            "name"      "sl_damage_multiplier"
+            "text"      "Damage multiplier"
+            "help"      "The damage multiplier for ALL incoming damage. Taken, or given."
+            "type"      "Numeric"
+            "default"   "1"
+        }
+        
+        9
+        {
+            "name"      "sl_max_skeleton_followers"
+            "text"      "Max skeleton followers."
+            "help       "Maximum skeleton followers a dead player can have."
+            "type"      "Numeric"
+            "default"   "5"
+        }
+        
+        10
+        {
+            "name"      "sl_enable_roleplay"
+            "text"      "Enable roleplay"
+            "help"      "Enableth roleplayth on thoust server"
+            "type"      "Checkbox"
+            "default"   "0"
+        }
+        
+    }
+}
